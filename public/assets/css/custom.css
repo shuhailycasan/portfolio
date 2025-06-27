@@ -2,7 +2,7 @@
     background-color: #232325 !important;
     color: #fdfdfd !important;
     border: 2px solid #232325 !important;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .btn-primary:hover,
@@ -10,6 +10,7 @@
     background-color: #fdfdfd !important;
     color: #232325 !important;
     border: 2px solid #232325 !important;
+     transform: scale(1.05);
 }
 
 .btn-outline-primary {
@@ -55,4 +56,16 @@ ul.timeline > li:before {
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+
+#profileImage {
+    width: 250px;
+    height: 250px;
+}
+
+@media (min-width: 992px) {
+    #profileImage {
+        width: 400px;
+        height: 400px;
+    }
 }

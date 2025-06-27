@@ -24,7 +24,7 @@
         <div class="row">
         
 
-            <div class="col-md-4">
+            <div data-aos="zoom-in" class="col-md-4">
                 <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="{{ 'assets/images/fb.png' }}" alt="Card image cap">
                 <div class="card-body">
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div data-aos="zoom-in" class="col-md-4">
                 <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="{{ 'assets/images/fb.png' }}" alt="Card image cap">
                 <div class="card-body">
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div data-aos="zoom-in" class="col-md-4">
                 <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="{{ 'assets/images/fb.png' }}" alt="Card image cap">
                 <div class="card-body">
@@ -99,7 +99,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div data-aos="zoom-in" class="col-md-4">
                 <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="{{ 'assets/images/fb.png' }}" alt="Card image cap">
                 <div class="card-body">

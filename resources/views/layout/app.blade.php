@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>@yield('title','Shuhaily Casan | Jr Developer')</title>
     @livewireStyles
@@ -26,6 +26,13 @@
 
     @include('components.footer')
     @livewireScripts
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+     
+    <script>
+        AOS.init();
+    </script>
 </body>
 </body>
 </html>

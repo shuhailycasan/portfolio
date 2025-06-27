@@ -34,8 +34,7 @@
                 <li>
                     <a>Backend developer- OJT</a>
                     <span class="float-end">Jan 2023 to April 2023</span>
-                    <p class="fst-italic">Fusce ullamcorper ligula sit amet quam...</p>
-                </li>
+                    <p class="fst-italic">Pixel8 Web Solutions and Consultancy Inc.</p>                </li>
             </ul>
         </div>
 
