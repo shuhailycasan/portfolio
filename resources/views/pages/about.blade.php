@@ -110,5 +110,3 @@
 
 </div>
 @endsection
-
-git push https://shuhailycasan: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@github.com/shuhailycasan/portfolio.git
