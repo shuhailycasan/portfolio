@@ -24,6 +24,7 @@ Route::controller(PageController::class)->group(function () {
 Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
     Route::get('/profile', [AdminController::class, 'profile'])->name('profile');
+    Route::put('/profile', [AdminController::class,'updateProfile'])->name('profile.update');
     Route::get('/experience', [AdminController::class, 'experience'])->name('experience');
     Route::get('/education', [AdminController::class, 'education'])->name('education');
     Route::get('/certifications', [AdminController::class, 'certifications'])->name('certifications');

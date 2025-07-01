@@ -8,7 +8,7 @@
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
         <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">
+            <a href="{{ route('admin.dashboard') }}" class="nav-link active" aria-current="page">
                 <svg class="bi me-2" width="16" height="16">
                     <use xlink:href="#home" />
                 </svg>
@@ -16,7 +16,7 @@
             </a>
         </li>
         <li>
-            <a href="#" class="nav-link link-dark">
+            <a href="{{ route('admin.profile') }}" class="nav-link link-dark">
                 <svg class="bi me-2" width="16" height="16">
                     <use xlink:href="#speedometer2" />
                 </svg>
@@ -24,7 +24,7 @@
             </a>
         </li>
         <li>
-            <a href="#" class="nav-link link-dark">
+            <a href="{{ route('admin.education') }}" class="nav-link link-dark">
                 <svg class="bi me-2" width="16" height="16">
                     <use xlink:href="#table" />
                 </svg>
@@ -32,7 +32,7 @@
             </a>
         </li>
         <li>
-            <a href="#" class="nav-link link-dark">
+            <a href="{{ route('admin.experience') }}" class="nav-link link-dark">
                 <svg class="bi me-2" width="16" height="16">
                     <use xlink:href="#grid" />
                 </svg>
@@ -40,7 +40,15 @@
             </a>
         </li>
         <li>
-            <a href="#" class="nav-link link-dark">
+            <a href="{{ route('admin.certifications') }}" class="nav-link link-dark">
+                <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#grid" />
+                </svg>
+                Certifications
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('admin.projects') }}" class="nav-link link-dark">
                 <svg class="bi me-2" width="16" height="16">
                     <use xlink:href="#people-circle" />
                 </svg>

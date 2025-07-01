@@ -35,4 +35,12 @@ class AdminController extends Controller
         return view('admin.techstacks');
     }
 
+    public function updateProfile(Request $request) {
+
+        $validate = $request->validate([ 
+
+            
+        ]);
+    }
+
 }
