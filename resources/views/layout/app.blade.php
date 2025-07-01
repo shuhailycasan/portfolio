@@ -12,7 +12,6 @@
     <title>@yield('title','Shuhaily Casan | Jr Developer')</title>
     @livewireStyles
 </head>
-<body>
     <body class="d-flex flex-column min-vh-100">
     
     <main class="mt-5">
@@ -22,17 +21,17 @@
 
     <main class="flex-fill container my-5">
         @yield('content')
+
     </main>
 
     @include('components.footer')
+    
     @livewireScripts
 
-     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-     
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-</body>
 </body>
 </html>
