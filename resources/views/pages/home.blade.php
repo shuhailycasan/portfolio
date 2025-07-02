@@ -1,3 +1,8 @@
+@php
+$hero = App\Models\Home::find(1);
+ @endphp
+
+
 @extends('layout.app')
 @section('title', 'Home | Shuhaily Casan')
 
@@ -14,12 +19,9 @@
             </div>
 
             <div class="col-lg-6 text-center text-lg-start">
-                <h1 data-aos="fade-right" data-aos-delay="100" class="display-5 fw-bold lh-1 mb-3">SHUHAILY CASAN</h1>
-                <h2 data-aos="fade-right" class="display-6 lh-1 mb-3">JR DEVELOPER</h2>
-                <p data-aos="fade-right" class="lead">A Junior Developer focused on building simple, functional, and
-                    modern web apps using Laravel and the tools that make it fun.
-                    Djoke lang, naniwala ka rin HAHAHAHA </p>
-
+                <h1 data-aos="fade-right" data-aos-delay="100" class="display-5 fw-bold lh-1 mb-3">{{ $hero->name }}</h1>
+                <h2 data-aos="fade-right" class="display-6 lh-1 mb-3">{{ $hero->title }}</h2>
+                <p data-aos="fade-right" class="lead">{{ $hero->desc }}</p>
                 <div
                     class="d-grid gap-2 d-md-flex justify-content-center-md-start d-lg-flex justify-content-lg-start justify-content-center">
                     <a type="button" class="btn btn-primary btn-lg px-4 me-md-2">Download CV</a>

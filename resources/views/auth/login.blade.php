@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container border border-primary vh-100 vw-100 d-flex justify-content-center align-items-center">
+<div class="container-fluid vh-100  d-flex justify-content-center align-items-center">
     <div class="row justify-content-center">
         <div class="col-md-15">
             <div class="card">
@@ -66,6 +66,8 @@
                         </div>
                     </form>
                 </div>
+
+
             </div>
         </div>
     </div>

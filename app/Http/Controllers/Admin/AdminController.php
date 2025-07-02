@@ -43,4 +43,12 @@ class AdminController extends Controller
         ]);
     }
 
+    public function updateEducation(Request $request) {
+
+        $validate = $request->validate([ 
+
+            
+        ]);
+    }
+
 }

@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\Admin\AdminController;
 
@@ -23,10 +23,15 @@ Route::controller(PageController::class)->group(function () {
 //DASHBOARD CONTROLLER FOR ADMIN ONLY
 Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+
     Route::get('/profile', [AdminController::class, 'profile'])->name('profile');
-    Route::put('/profile', [AdminController::class,'updateProfile'])->name('profile.update');
+    Route::post('/profile/profile-update', [HomeController::class, 'homeUpdate'])->name('profile.update');
+
     Route::get('/experience', [AdminController::class, 'experience'])->name('experience');
+
     Route::get('/education', [AdminController::class, 'education'])->name('education');
+    Route::put('/education', [AdminController::class, 'updateProfile'])->name('education.update');
+
     Route::get('/certifications', [AdminController::class, 'certifications'])->name('certifications');
     Route::get('/projects', [AdminController::class, 'projects'])->name('projects');
     Route::get('/techstack', [AdminController::class, 'techstack'])->name('techstack');

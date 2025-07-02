@@ -10,7 +10,7 @@
     </div>
 
 
-    <div class="container-fluid justify-content-center border border-primary">
+    <div class="container-fluid m-4 justify-content-center border border-primary bg-light rounded">
         <p>This is your admin dashboard</p>
 
     </div>
